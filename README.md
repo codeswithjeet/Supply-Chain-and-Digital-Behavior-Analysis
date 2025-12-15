@@ -104,7 +104,7 @@ All critical data preparation was performed in PostgreSQL to ensure analytical r
 **Digital Demand Analysis**
 
 |**Tool**|**Step**|**Focus Area**|**Deliverable**|
-| :--- | :--- |
+| :--- | :--- | :--- | :--- |
 |**SQL**|Traffic Aggregation|Views by Product, Category, and Department; Top 10 most viewed items|Traffic Summary Table|
 |**SQL**|Temporal Analysis|Traffic distribution by Hour of Day and Month|Temporal Traffic Table|
 |**Excel**|Visualization|Pivot Charts for top products and hourly demand patterns|Excel Traffic Visuals|
