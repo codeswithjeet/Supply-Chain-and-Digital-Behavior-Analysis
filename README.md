@@ -23,7 +23,7 @@ The project follows a structured analytics lifecycle commonly adopted in busines
 ## **Tools and Their Purpose**
 
 |**Tool**|**Purpose**|
-| :--- | ---: |
+| :--- | :--- |
 |**Excel**|Rapid data validation, exploratory analysis, interactive Pivot Tables, and advanced reporting through dynamic conditional formatting techniques.|
 |**PostgreSQL**|Database schema creation, extensive data cleaning and transformation, complex analytical queries, and creation of optimized SQL Views for BI consumption.|
 |**Power BI**|Development of DAX measures (e.g., Total Sales, Total Views, Late Delivery Rate) and construction of multi-visual, business-focused dashboards.|
@@ -52,9 +52,11 @@ All critical data preparation was performed in PostgreSQL to ensure analytical r
 |**SQL**|Analysis-Ready Views|Created clean, optimized SQL Views for supply chain data and digital log data, serving as the single source of truth for Power BI modelling.|
 
 *Data Cleaning & Transformation*
+
 ![Alt Text for Accessibility](Assets/data_cleaning.png)
 
 *Views*
+
 ![Alt Text for Accessibility](Assets/v_supply.png)
 
 ![Alt Text for Accessibility](Assets/v_digital.png)
@@ -72,23 +74,29 @@ All critical data preparation was performed in PostgreSQL to ensure analytical r
 |**Excel**|Pivot Deep Dive|Interactive analysis of Profit by Customer Segment, State, and Month|Excel Pivot Analysis|
 
 *KPI Calculation*
+
 ![Alt Text for Accessibility](Assets/kpi.png)
 
 *Profitability Analysis*
+
 ![Alt Text for Accessibility](Assets/profit.png)
 
 *Logistics Risk Analysis*
+
 ![Alt Text for Accessibility](Assets/logistics.png)
 
 *Sales Trend Analysis*
+
 ![Alt Text for Accessibility](Assets/sales_trend.png)
 
 *Pivot Tables Overview*
 
 *Sales Trend Pivot Table*
+
 ![Alt Text for Accessibility](Assets/sales_trend_pivot.png)
 
 *Logistics Risk Pivot Table*
+
 ![Alt Text for Accessibility](Assets/logistics_risk_pivot.png)
 
 *For Excel Deep Pivot Analysis, kindly check the **Excel Folder**.*
@@ -102,14 +110,17 @@ All critical data preparation was performed in PostgreSQL to ensure analytical r
 |**Excel**|Visualization|Pivot Charts for top products and hourly demand patterns|Excel Traffic Visuals|
 
 *Traffic Aggregation*
+
 ![Alt Text for Accessibility](Assets/top_product_traffic.png)
 
 *Temporal Traffic Analysis*
+
 ![Alt Text for Accessibility](Assets/temp_traffic.png)
 
 *Pivot Table Overview*
 
 *Digital Traffic Pivot Table*
+
 ![Alt Text for Accessibility](Assets/digital_pivot.png)
 
 *For Excel Deep Pivot Analysis, kindly check the **Excel Folder**.*
@@ -149,7 +160,7 @@ Two executive-level dashboards were developed.
 *	**Logistics Risk Mitigation:** Prioritize an in-depth review of European fulfillment operations (customs processes, 3PL performance) to reduce delivery delays.
 * **Operational Scheduling Optimization:** Restrict system maintenance and non-critical IT activities to low-demand hours (00:00–05:00) to protect peak sales windows (18:00–23:00).
 *	**Product Margin Improvement:** Conduct a detailed COGS audit for the Fishing category to enhance margins without sacrificing volume.
+* **Traffic Stabilization Strategy:** Initiate a cross-functional Marketing–Inventory review to diagnose the post-September traffic decline and deploy incentive-driven campaigns to stabilize demand year-round.
+
 
 ### **Note:** *For more details about the project, kindly check the **Project Folders** in this repository* 
-4.	Traffic Stabilization Strategy: Initiate a cross-functional Marketing–Inventory review to diagnose the post-September traffic decline and deploy incentive-driven campaigns to stabilize demand year-round.
-________________________________________
