@@ -34,7 +34,7 @@ The project follows a structured analytics lifecycle commonly adopted in busines
 **Key Business Questions Addressed**
 
 |**Analysis Area**|**Key Questions**|
-| :--- | ---: |
+| :--- | :--- |
 |**Sales & Profitability**|What are the Total Sales and Total Profit? How is profit distributed across customer segments? Which products are high-volume but low-margin?|
 |**Digital Demand**|What are the monthly traffic trends? When does demand peak during the day? Which products and categories attract the highest interest?|
 |**Logistics Risk**|Which regions exhibit the highest late delivery risk? Which customer segments contribute most to profit exposure due to delivery delays?|
@@ -45,7 +45,7 @@ The project follows a structured analytics lifecycle commonly adopted in busines
 All critical data preparation was performed in PostgreSQL to ensure analytical reliability.
 
 |**Tool**|**Step**|**Description**|
-| :---| ---: |
+| :---| :--- | :--- |
 |**SQL**|Date & Time Standardization|Converted all date/time fields (Order Date, Shipping Date, Log Dates) from text/object formats to standardized DATETIME types.|
 |**SQL**|Missing & Null Value Handling|Identified high-impact missing fields (e.g., Customer Zipcode, Customer Last Name). Applied appropriate strategies such as categorical placeholders or exclusion from financial calculations.|
 |**SQL**|Product Name Standardization|Cleaned and normalized product identifiers across transactional and log datasets (lowercasing, trimming, removing special characters) to maximize join accuracy in Power BI.|
@@ -67,7 +67,7 @@ All critical data preparation was performed in PostgreSQL to ensure analytical r
 **Supply Chain Analysis**
 
 |**Tool**|**Step**|**Focus Area**|**Deliverable**|
-| :--- | :---: | :---: | ---: |
+| :--- | :---: | :---: | :--- |
 |**SQL**|KPI Calculation|Total Revenue, Total Profit, Average Profit per Order, Late Delivery Rate|KPI Summary|
 |**SQL**|Profitability Analysis|Profit and sales by Category, Department, and Market; Top/Bottom 5 performers|Profitability Tables|
 |**SQL**|Logistics Risk Analysis|Late Delivery Risk (%) by Shipping Mode and Order Region|Risk Analysis Table|
@@ -104,7 +104,7 @@ All critical data preparation was performed in PostgreSQL to ensure analytical r
 **Digital Demand Analysis**
 
 |**Tool**|**Step**|**Focus Area**|**Deliverable**|
-| :--- | ---: |
+| :--- | :--- |
 |**SQL**|Traffic Aggregation|Views by Product, Category, and Department; Top 10 most viewed items|Traffic Summary Table|
 |**SQL**|Temporal Analysis|Traffic distribution by Hour of Day and Month|Temporal Traffic Table|
 |**Excel**|Visualization|Pivot Charts for top products and hourly demand patterns|Excel Traffic Visuals|
@@ -133,7 +133,7 @@ Two executive-level dashboards were developed.
 ![Alt Text for Accessibility](Assets/supply_chain.png)
 
 |**Visual**|**Insight**|
-| :--- | ---: |
+| :--- | :--- |
 |**Sales by Department**|Fan Shop dominates revenue at **$17.1M**, confirming its strategic importance.|
 |**Sales vs. Profit by Category**|Fishing category shows high sales volume but relatively thin margins, indicating cost pressure.|
 |**Customer Segment Contribution**|Consumer segment contributes **51.91%** of total revenue and profit.|
@@ -145,6 +145,7 @@ Two executive-level dashboards were developed.
 ![Alt Text for Accessibility](Assets/digital_behavior.png)
 
 |**Visual**|**Insight**|
+| :--- | :--- |
 |**Monthly Traffic Trend**|Page views decline sharply by **35%+ after September**, signalling demand volatility.|
 |**Hourly Traffic Distribution**|Peak demand occurs between **18:00 and 23:00**, defining critical operational hours.|
 |**Top Viewed Products & Categories**|Cleats lead with **27.9K views**, indicating strong customer interest.|
